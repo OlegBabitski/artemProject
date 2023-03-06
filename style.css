@@ -1,0 +1,212 @@
+.conteiner{
+	max-width: 1080px;
+	margin: 0 auto;
+	
+}
+.header{
+	width: 100%;
+	height: 100vh;
+	background-color: #EFF0F2;
+	display: flex;
+	justify-content: center;
+	border-radius: 3%;
+}
+.header-title{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-title p{
+	font-family: 'Montserrat', sans-serif;
+    font-size: calc(10px + 18 *(100vw / 1140));
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: #505050;
+    line-height: 1.2;
+    text-shadow: #505050 4px 7px 8px;
+    text-align: center;
+	padding: 5px 0px 5px;
+}
+.header-title h1{
+	font-family: 'Montserrat', sans-serif;
+    font-size: calc(27px + 18 *(100vw / 1080));
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: #505050;
+    line-height: 1.2;
+    text-shadow: #505050 4px 7px 8px;
+    text-align: center;
+	 font-weight: 700;
+	 margin-bottom: 10%;
+}
+.header-title span{
+	background-color: aqua;
+	font-family: 'Montserrat', sans-serif;
+    font-size: calc(10px + 18 *(100vw / 1140));
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: #505050;
+    line-height: 1.2;
+    text-shadow: #505050 4px 7px 8px;
+    text-align: center;
+	padding: 5px 0px 5px;
+	margin-bottom: 5%;
+}
+.content-setup{
+    margin-top: 5%;
+}
+.content-setup-header h1{
+    text-align: center;
+    font-size: calc(10px + 18 *(100vw / 1080));
+    color: #505050;
+    font-weight: 1000;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+.content-setup-header h2{
+    font-size: calc(10px + 8 *(100vw / 1140));
+    text-transform: uppercase;
+    text-align: center;
+    color: #8d8e8e;
+    font-family: Merriweather-Regular;
+    letter-spacing: 1px;
+}
+.setup-tables{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.setup-tables-box{
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin: 5% 0;
+}
+.setup-tables-box p{
+    font-family: Raleway-Regular;
+    font-size: calc(13px + 3 *(100vw / 1140));
+    color: #313131;
+    padding-top: 4%;
+    line-height: 1.7;
+    padding-bottom: 2%;
+   
+}
+.setup-tables-box a{
+    font-family: Raleway-Regular;
+    font-size: calc(13px + 3 *(100vw / 1140));
+    color: #000000;
+}
+.setup-tables-box img{
+ width: 80%;
+ max-height: 100%;
+ margin: 0 auto;
+}
+.setup-tables-IPA h1{
+    text-align: center;
+    font-size: calc(10px + 18 *(100vw / 1080));
+    color: #505050;
+    font-weight: 1000;
+    font-family: 'Montserrat-Regular', sans-serif;
+}
+.setup-tables-IPA p{
+    font-family: Raleway-Regular;
+    font-size: calc(13px + 3 *(100vw / 1140));
+    color: #313131;
+    padding-top: 4%;
+    line-height: 1.7;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.setup-tables-IPA a{
+    font-family: Raleway-Regular;
+    font-size: calc(13px + 3 *(100vw / 1140));
+    color: #000000;
+    margin-bottom: 5px;
+}
+.setup-tables-sites{
+display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #8d8e8e;
+}
+.footer-conteiner{
+    max-width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+.footer-conteiner h1{
+	font-family: 'Montserrat', sans-serif;
+    font-size: calc(1px + 18 *(100vw / 1140));
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: #ffffff;
+    line-height: 1.2;
+    text-shadow: #505050 4px 7px 8px;
+    text-align: center; 
+}
+
+@media(max-width: 450px){
+    .setup-tables-box{
+        width: 100%;
+        height: 150px;
+        text-align: center;
+        display: flex;
+       flex-direction: row;
+       align-items: center;
+       margin: 0px;
+    }
+    .content-setup{
+        margin-top: 1%;
+    }
+    .setup-tables-IPA{
+        margin-top: 5%;
+    }
+}
+
+@font-face{
+	font-family:'Montserrat-Regular';
+	src: url(Fonts/Montserrat-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family:'Montserrat-Regular';
+	src: url(Fonts/Montserrat-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family:'Merriweather-Regular';
+	src: url(Fonts/Merriweather-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family:'Merriweather-Bold';
+	src: url(Fonts/Merriweather-Bold.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family:'Raleway-Regular';
+	src: url(Fonts/Raleway-Regular.ttf);
+	font-style: normal;
+	font-weight: normal;
+}
+
